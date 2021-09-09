@@ -16,7 +16,7 @@ import nuxt_plugin_plugin_6d3a445a from 'nuxt_plugin_plugin_6d3a445a' // Source:
 import nuxt_plugin_workbox_732580e8 from 'nuxt_plugin_workbox_732580e8' // Source: ./workbox.js (mode: 'client')
 import nuxt_plugin_metaplugin_90f78ac2 from 'nuxt_plugin_metaplugin_90f78ac2' // Source: ./pwa/meta.plugin.js (mode: 'all')
 import nuxt_plugin_axios_45a6b320 from 'nuxt_plugin_axios_45a6b320' // Source: ./axios.js (mode: 'all')
-import nuxt_plugin_vuescrollmagic_12303014 from 'nuxt_plugin_vuescrollmagic_12303014' // Source: ../plugins/vue-scrollmagic.js (mode: 'client')
+import nuxt_plugin_vuescrollmagic_80df31dc from 'nuxt_plugin_vuescrollmagic_80df31dc' // Source: ../plugins/vue-scrollmagic.js (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -196,8 +196,8 @@ async function createApp(ssrContext, config = {}) {
     await nuxt_plugin_axios_45a6b320(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_vuescrollmagic_12303014 === 'function') {
-    await nuxt_plugin_vuescrollmagic_12303014(app.context, inject)
+  if (process.client && typeof nuxt_plugin_vuescrollmagic_80df31dc === 'function') {
+    await nuxt_plugin_vuescrollmagic_80df31dc(app.context, inject)
   }
 
   // Lock enablePreview in context

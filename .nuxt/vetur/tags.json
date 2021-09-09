@@ -95,18 +95,6 @@
   "MoleculesMainSec04": {
     "description": "Auto imported from components/molecules/main/sec04/index.js"
   },
-  "AtomsMainSec01BottomText": {
-    "description": "Auto imported from components/atoms/main/sec01/Sec01BottomText.vue"
-  },
-  "AtomsMainSec01Date": {
-    "description": "Auto imported from components/atoms/main/sec01/Sec01Date.vue"
-  },
-  "AtomsMainSec01Image": {
-    "description": "Auto imported from components/atoms/main/sec01/Sec01Image.vue"
-  },
-  "AtomsMainSec01Title": {
-    "description": "Auto imported from components/atoms/main/sec01/Sec01Title.vue"
-  },
   "AtomsMainSec02ContentEn": {
     "description": "Auto imported from components/atoms/main/sec02/Sec02ContentEn.vue"
   },
@@ -145,5 +133,17 @@
   },
   "AtomsMainSec04": {
     "description": "Auto imported from components/atoms/main/sec04/index.js"
+  },
+  "AtomsMainSec01BottomText": {
+    "description": "Auto imported from components/atoms/main/sec01/Sec01BottomText.vue"
+  },
+  "AtomsMainSec01Date": {
+    "description": "Auto imported from components/atoms/main/sec01/Sec01Date.vue"
+  },
+  "AtomsMainSec01Image": {
+    "description": "Auto imported from components/atoms/main/sec01/Sec01Image.vue"
+  },
+  "AtomsMainSec01Title": {
+    "description": "Auto imported from components/atoms/main/sec01/Sec01Title.vue"
   }
 }

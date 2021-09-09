@@ -34,10 +34,6 @@ const components = {
   MoleculesMainSec04Img02: () => import('../../components/molecules/main/sec04/Sec04Img02.vue' /* webpackChunkName: "components/molecules-main-sec04-img02" */).then(c => wrapFunctional(c.default || c)),
   MoleculesMainSec04Text: () => import('../../components/molecules/main/sec04/Sec04Text.vue' /* webpackChunkName: "components/molecules-main-sec04-text" */).then(c => wrapFunctional(c.default || c)),
   MoleculesMainSec04: () => import('../../components/molecules/main/sec04/index.js' /* webpackChunkName: "components/molecules-main-sec04" */).then(c => wrapFunctional(c.default || c)),
-  AtomsMainSec01BottomText: () => import('../../components/atoms/main/sec01/Sec01BottomText.vue' /* webpackChunkName: "components/atoms-main-sec01-bottom-text" */).then(c => wrapFunctional(c.default || c)),
-  AtomsMainSec01Date: () => import('../../components/atoms/main/sec01/Sec01Date.vue' /* webpackChunkName: "components/atoms-main-sec01-date" */).then(c => wrapFunctional(c.default || c)),
-  AtomsMainSec01Image: () => import('../../components/atoms/main/sec01/Sec01Image.vue' /* webpackChunkName: "components/atoms-main-sec01-image" */).then(c => wrapFunctional(c.default || c)),
-  AtomsMainSec01Title: () => import('../../components/atoms/main/sec01/Sec01Title.vue' /* webpackChunkName: "components/atoms-main-sec01-title" */).then(c => wrapFunctional(c.default || c)),
   AtomsMainSec02ContentEn: () => import('../../components/atoms/main/sec02/Sec02ContentEn.vue' /* webpackChunkName: "components/atoms-main-sec02-content-en" */).then(c => wrapFunctional(c.default || c)),
   AtomsMainSec02ContentJp: () => import('../../components/atoms/main/sec02/Sec02ContentJp.vue' /* webpackChunkName: "components/atoms-main-sec02-content-jp" */).then(c => wrapFunctional(c.default || c)),
   AtomsMainSec02SubThumb: () => import('../../components/atoms/main/sec02/Sec02SubThumb.vue' /* webpackChunkName: "components/atoms-main-sec02-sub-thumb" */).then(c => wrapFunctional(c.default || c)),
@@ -50,7 +46,11 @@ const components = {
   AtomsMainSec03SubMenuRight: () => import('../../components/atoms/main/sec03/SubMenuRight.vue' /* webpackChunkName: "components/atoms-main-sec03-sub-menu-right" */).then(c => wrapFunctional(c.default || c)),
   AtomsMainSec04Button: () => import('../../components/atoms/main/sec04/Sec04Button.vue' /* webpackChunkName: "components/atoms-main-sec04-button" */).then(c => wrapFunctional(c.default || c)),
   AtomsMainSec04Content: () => import('../../components/atoms/main/sec04/Sec04Content.vue' /* webpackChunkName: "components/atoms-main-sec04-content" */).then(c => wrapFunctional(c.default || c)),
-  AtomsMainSec04: () => import('../../components/atoms/main/sec04/index.js' /* webpackChunkName: "components/atoms-main-sec04" */).then(c => wrapFunctional(c.default || c))
+  AtomsMainSec04: () => import('../../components/atoms/main/sec04/index.js' /* webpackChunkName: "components/atoms-main-sec04" */).then(c => wrapFunctional(c.default || c)),
+  AtomsMainSec01BottomText: () => import('../../components/atoms/main/sec01/Sec01BottomText.vue' /* webpackChunkName: "components/atoms-main-sec01-bottom-text" */).then(c => wrapFunctional(c.default || c)),
+  AtomsMainSec01Date: () => import('../../components/atoms/main/sec01/Sec01Date.vue' /* webpackChunkName: "components/atoms-main-sec01-date" */).then(c => wrapFunctional(c.default || c)),
+  AtomsMainSec01Image: () => import('../../components/atoms/main/sec01/Sec01Image.vue' /* webpackChunkName: "components/atoms-main-sec01-image" */).then(c => wrapFunctional(c.default || c)),
+  AtomsMainSec01Title: () => import('../../components/atoms/main/sec01/Sec01Title.vue' /* webpackChunkName: "components/atoms-main-sec01-title" */).then(c => wrapFunctional(c.default || c))
 }
 
 for (const name in components) {

@@ -32,10 +32,6 @@ export { default as MoleculesMainSec04Img } from '../../components/molecules/mai
 export { default as MoleculesMainSec04Img02 } from '../../components/molecules/main/sec04/Sec04Img02.vue'
 export { default as MoleculesMainSec04Text } from '../../components/molecules/main/sec04/Sec04Text.vue'
 export { default as MoleculesMainSec04 } from '../../components/molecules/main/sec04/index.js'
-export { default as AtomsMainSec01BottomText } from '../../components/atoms/main/sec01/Sec01BottomText.vue'
-export { default as AtomsMainSec01Date } from '../../components/atoms/main/sec01/Sec01Date.vue'
-export { default as AtomsMainSec01Image } from '../../components/atoms/main/sec01/Sec01Image.vue'
-export { default as AtomsMainSec01Title } from '../../components/atoms/main/sec01/Sec01Title.vue'
 export { default as AtomsMainSec02ContentEn } from '../../components/atoms/main/sec02/Sec02ContentEn.vue'
 export { default as AtomsMainSec02ContentJp } from '../../components/atoms/main/sec02/Sec02ContentJp.vue'
 export { default as AtomsMainSec02SubThumb } from '../../components/atoms/main/sec02/Sec02SubThumb.vue'
@@ -49,6 +45,10 @@ export { default as AtomsMainSec03SubMenuRight } from '../../components/atoms/ma
 export { default as AtomsMainSec04Button } from '../../components/atoms/main/sec04/Sec04Button.vue'
 export { default as AtomsMainSec04Content } from '../../components/atoms/main/sec04/Sec04Content.vue'
 export { default as AtomsMainSec04 } from '../../components/atoms/main/sec04/index.js'
+export { default as AtomsMainSec01BottomText } from '../../components/atoms/main/sec01/Sec01BottomText.vue'
+export { default as AtomsMainSec01Date } from '../../components/atoms/main/sec01/Sec01Date.vue'
+export { default as AtomsMainSec01Image } from '../../components/atoms/main/sec01/Sec01Image.vue'
+export { default as AtomsMainSec01Title } from '../../components/atoms/main/sec01/Sec01Title.vue'
 
 export const LazyPagesHome = import('../../components/pages/Home.vue' /* webpackChunkName: "components/pages-home" */).then(c => wrapFunctional(c.default || c))
 export const LazyTemplatesFooter = import('../../components/templates/Footer.vue' /* webpackChunkName: "components/templates-footer" */).then(c => wrapFunctional(c.default || c))
@@ -82,10 +82,6 @@ export const LazyMoleculesMainSec04Img = import('../../components/molecules/main
 export const LazyMoleculesMainSec04Img02 = import('../../components/molecules/main/sec04/Sec04Img02.vue' /* webpackChunkName: "components/molecules-main-sec04-img02" */).then(c => wrapFunctional(c.default || c))
 export const LazyMoleculesMainSec04Text = import('../../components/molecules/main/sec04/Sec04Text.vue' /* webpackChunkName: "components/molecules-main-sec04-text" */).then(c => wrapFunctional(c.default || c))
 export const LazyMoleculesMainSec04 = import('../../components/molecules/main/sec04/index.js' /* webpackChunkName: "components/molecules-main-sec04" */).then(c => wrapFunctional(c.default || c))
-export const LazyAtomsMainSec01BottomText = import('../../components/atoms/main/sec01/Sec01BottomText.vue' /* webpackChunkName: "components/atoms-main-sec01-bottom-text" */).then(c => wrapFunctional(c.default || c))
-export const LazyAtomsMainSec01Date = import('../../components/atoms/main/sec01/Sec01Date.vue' /* webpackChunkName: "components/atoms-main-sec01-date" */).then(c => wrapFunctional(c.default || c))
-export const LazyAtomsMainSec01Image = import('../../components/atoms/main/sec01/Sec01Image.vue' /* webpackChunkName: "components/atoms-main-sec01-image" */).then(c => wrapFunctional(c.default || c))
-export const LazyAtomsMainSec01Title = import('../../components/atoms/main/sec01/Sec01Title.vue' /* webpackChunkName: "components/atoms-main-sec01-title" */).then(c => wrapFunctional(c.default || c))
 export const LazyAtomsMainSec02ContentEn = import('../../components/atoms/main/sec02/Sec02ContentEn.vue' /* webpackChunkName: "components/atoms-main-sec02-content-en" */).then(c => wrapFunctional(c.default || c))
 export const LazyAtomsMainSec02ContentJp = import('../../components/atoms/main/sec02/Sec02ContentJp.vue' /* webpackChunkName: "components/atoms-main-sec02-content-jp" */).then(c => wrapFunctional(c.default || c))
 export const LazyAtomsMainSec02SubThumb = import('../../components/atoms/main/sec02/Sec02SubThumb.vue' /* webpackChunkName: "components/atoms-main-sec02-sub-thumb" */).then(c => wrapFunctional(c.default || c))
@@ -99,3 +95,7 @@ export const LazyAtomsMainSec03SubMenuRight = import('../../components/atoms/mai
 export const LazyAtomsMainSec04Button = import('../../components/atoms/main/sec04/Sec04Button.vue' /* webpackChunkName: "components/atoms-main-sec04-button" */).then(c => wrapFunctional(c.default || c))
 export const LazyAtomsMainSec04Content = import('../../components/atoms/main/sec04/Sec04Content.vue' /* webpackChunkName: "components/atoms-main-sec04-content" */).then(c => wrapFunctional(c.default || c))
 export const LazyAtomsMainSec04 = import('../../components/atoms/main/sec04/index.js' /* webpackChunkName: "components/atoms-main-sec04" */).then(c => wrapFunctional(c.default || c))
+export const LazyAtomsMainSec01BottomText = import('../../components/atoms/main/sec01/Sec01BottomText.vue' /* webpackChunkName: "components/atoms-main-sec01-bottom-text" */).then(c => wrapFunctional(c.default || c))
+export const LazyAtomsMainSec01Date = import('../../components/atoms/main/sec01/Sec01Date.vue' /* webpackChunkName: "components/atoms-main-sec01-date" */).then(c => wrapFunctional(c.default || c))
+export const LazyAtomsMainSec01Image = import('../../components/atoms/main/sec01/Sec01Image.vue' /* webpackChunkName: "components/atoms-main-sec01-image" */).then(c => wrapFunctional(c.default || c))
+export const LazyAtomsMainSec01Title = import('../../components/atoms/main/sec01/Sec01Title.vue' /* webpackChunkName: "components/atoms-main-sec01-title" */).then(c => wrapFunctional(c.default || c))
