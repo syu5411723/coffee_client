@@ -21,7 +21,7 @@ export default {
   plugins: [
     {
       src: '~/plugins/vue-scrollmagic.js',
-      ssr: false
+      mode: 'client'
     }
   ],
 
