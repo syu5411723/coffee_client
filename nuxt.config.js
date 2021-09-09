@@ -31,7 +31,8 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/pwa',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -54,7 +55,7 @@ export default {
   // Axios module configuration
   //See https://axios.nuxtjs.org/options.
   axios: {
-    baseURL: 'http://localhost:8000/api'
+    baseURL: 'https://dj-heroku-sample.herokuapp.com/api'
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
