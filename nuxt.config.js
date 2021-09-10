@@ -10,7 +10,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -21,7 +21,7 @@ export default {
   plugins: [
     {
       src: '~/plugins/vue-scrollmagic.js',
-      ssr: false
+      mode: 'client',
     }
   ],
 
@@ -39,7 +39,9 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    // 'vue-scrollmagic'
+
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

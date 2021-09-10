@@ -6,20 +6,18 @@
         <FooterCntJp />
         <FooterCntEn />
       </div>
-      <FooterBootom />
+      <FooterBottom />
     </div>
   </div>
 </template>
 
 <script>
-import FooterCntEn from "../atoms/footer/FooterCntEn";
-import FooterCntJp from "../atoms/footer/FooterCntJp";
-import FooterBootom from "../atoms/footer/FooterBottom.vue";
+import {FooterCntJp, FooterCntEn, FooterBottom} from "~/components/atoms/footer/"
 export default {
   components: {
     FooterCntJp,
     FooterCntEn,
-    FooterBootom,
+    FooterBottom,
   },
   mounted() {
     const scene = this.$scrollmagic
