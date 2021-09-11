@@ -1,11 +1,14 @@
 <template>
   <body>
-    <Home :menus="menus" :otherMenus="otherMenus" />
+    <!-- <Home :menus="menus" :otherMenus="otherMenus" /> -->
+    <Sample />
   </body>
 </template>
 
 <script>
 import Home from "../components/pages/Home.vue";
+import Sample from "~/components//Sample.vue";
+
 
 const sampleData = [
   {
@@ -43,6 +46,7 @@ const sampleData = [
 export default {
   components: {
     Home,
+    Sample,
   },
   data() {
     return {

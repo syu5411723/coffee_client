@@ -1,4 +1,4 @@
-exports.ids = [42,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,43,44,45,46,47,48,49,50];
+exports.ids = [42,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,44,45,46,47,48,49,50,51];
 exports.modules = Array(23).concat([
 /* 23 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -4348,7 +4348,8 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
-/* 196 */
+/* 196 */,
+/* 197 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4383,8 +4384,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /***/ }),
-/* 197 */,
-/* 198 */
+/* 198 */,
+/* 199 */,
+/* 200 */,
+/* 201 */,
+/* 202 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4399,7 +4403,7 @@ var staticRenderFns = []
 // CONCATENATED MODULE: ./components/pages/Home.vue?vue&type=template&id=7a232238&
 
 // EXTERNAL MODULE: ./components/templates/index.js
-var templates = __webpack_require__(196);
+var templates = __webpack_require__(197);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/pages/Home.vue?vue&type=script&lang=js&
 //
