@@ -1,6 +1,6 @@
 ﻿<template>
   <div>
-      <div class="dammy"></div>
+    <div class="dammy"></div>
     <section>
       <h2 id="work-trigger" class="section-title effect-fade-side">Works</h2>
       <div class="article-body works">
@@ -39,7 +39,7 @@ export default {
   opacity: 0;
 }
 .dammy {
-    width: 100c;
-    height: 100vh;
+  width: 100c;
+  height: 100vh;
 }
 </style>

@@ -59,5 +59,10 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     // extend(config, ctx) {}
+    babel: {
+      presets({ isServer }, [preset, options]) {
+        options.loose = true
+      },
+    },
   }
 }
