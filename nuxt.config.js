@@ -21,7 +21,7 @@ export default {
   plugins: [
     {
       src: '~/plugins/vue-scrollmagic.js',
-      mode: 'client',
+      ssr: false
     }
   ],
 
@@ -40,8 +40,6 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    // 'vue-scrollmagic'
-
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -61,5 +59,10 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     // extend(config, ctx) {}
+    babel: {
+      presets({ isServer }, [preset, options]) {
+        options.loose = true
+      },
+    },
   }
 }

@@ -1,7 +1,4 @@
 {
-  "PagesHome": {
-    "description": "Auto imported from components/pages/Home.vue"
-  },
   "TemplatesFooter": {
     "description": "Auto imported from components/templates/Footer.vue"
   },
@@ -26,6 +23,9 @@
   "Templates": {
     "description": "Auto imported from components/templates/index.js"
   },
+  "PagesHome": {
+    "description": "Auto imported from components/pages/Home.vue"
+  },
   "MoleculesHeaderList": {
     "description": "Auto imported from components/molecules/header/List.vue"
   },
@@ -38,6 +38,15 @@
   "AtomsDesignSecTitle": {
     "description": "Auto imported from components/atoms/design/SecTitle.vue"
   },
+  "AtomsHeaderList": {
+    "description": "Auto imported from components/atoms/header/HeaderList.vue"
+  },
+  "AtomsHeaderLogo": {
+    "description": "Auto imported from components/atoms/header/HeaderLogo.vue"
+  },
+  "AtomsHeaderTitle": {
+    "description": "Auto imported from components/atoms/header/HeaderTitle.vue"
+  },
   "AtomsFooterBottom": {
     "description": "Auto imported from components/atoms/footer/FooterBottom.vue"
   },
@@ -49,39 +58,6 @@
   },
   "AtomsFooter": {
     "description": "Auto imported from components/atoms/footer/index.js"
-  },
-  "AtomsHeaderList": {
-    "description": "Auto imported from components/atoms/header/HeaderList.vue"
-  },
-  "AtomsHeaderLogo": {
-    "description": "Auto imported from components/atoms/header/HeaderLogo.vue"
-  },
-  "AtomsHeaderTitle": {
-    "description": "Auto imported from components/atoms/header/HeaderTitle.vue"
-  },
-  "MoleculesMainSec01Bottom": {
-    "description": "Auto imported from components/molecules/main/sec01/Sec01Bottom.vue"
-  },
-  "MoleculesMainSec01Main": {
-    "description": "Auto imported from components/molecules/main/sec01/Sec01Main.vue"
-  },
-  "MoleculesMainSec02Content": {
-    "description": "Auto imported from components/molecules/main/sec02/Sec02Content.vue"
-  },
-  "MoleculesMainSec02Image": {
-    "description": "Auto imported from components/molecules/main/sec02/Sec02Image.vue"
-  },
-  "MoleculesMainSec02Title": {
-    "description": "Auto imported from components/molecules/main/sec02/Sec02Title.vue"
-  },
-  "MoleculesMainSec02": {
-    "description": "Auto imported from components/molecules/main/sec02/index.js"
-  },
-  "MoleculesMainMenu": {
-    "description": "Auto imported from components/molecules/main/sec03/MainMenu.vue"
-  },
-  "MoleculesMainSec03SubMenu": {
-    "description": "Auto imported from components/molecules/main/sec03/SubMenu.vue"
   },
   "MoleculesMainSec04FromOnline": {
     "description": "Auto imported from components/molecules/main/sec04/FromOnline.vue"
@@ -98,17 +74,17 @@
   "MoleculesMainSec04": {
     "description": "Auto imported from components/molecules/main/sec04/index.js"
   },
-  "AtomsMainSec02ContentEn": {
-    "description": "Auto imported from components/atoms/main/sec02/Sec02ContentEn.vue"
+  "MoleculesMainSec01Bottom": {
+    "description": "Auto imported from components/molecules/main/sec01/Sec01Bottom.vue"
   },
-  "AtomsMainSec02ContentJp": {
-    "description": "Auto imported from components/atoms/main/sec02/Sec02ContentJp.vue"
+  "MoleculesMainSec01Main": {
+    "description": "Auto imported from components/molecules/main/sec01/Sec01Main.vue"
   },
-  "AtomsMainSec02SubThumb": {
-    "description": "Auto imported from components/atoms/main/sec02/Sec02SubThumb.vue"
+  "MoleculesMainMenu": {
+    "description": "Auto imported from components/molecules/main/sec03/MainMenu.vue"
   },
-  "AtomsMainSec02Thumb": {
-    "description": "Auto imported from components/atoms/main/sec02/Sec02Thumb.vue"
+  "MoleculesMainSec03SubMenu": {
+    "description": "Auto imported from components/molecules/main/sec03/SubMenu.vue"
   },
   "AtomsMainSec01BottomText": {
     "description": "Auto imported from components/atoms/main/sec01/Sec01BottomText.vue"
@@ -121,6 +97,18 @@
   },
   "AtomsMainSec01Title": {
     "description": "Auto imported from components/atoms/main/sec01/Sec01Title.vue"
+  },
+  "MoleculesMainSec02Content": {
+    "description": "Auto imported from components/molecules/main/sec02/Sec02Content.vue"
+  },
+  "MoleculesMainSec02Image": {
+    "description": "Auto imported from components/molecules/main/sec02/Sec02Image.vue"
+  },
+  "MoleculesMainSec02Title": {
+    "description": "Auto imported from components/molecules/main/sec02/Sec02Title.vue"
+  },
+  "MoleculesMainSec02": {
+    "description": "Auto imported from components/molecules/main/sec02/index.js"
   },
   "AtomsMainMenuImg": {
     "description": "Auto imported from components/atoms/main/sec03/MainMenuImg.vue"
@@ -139,6 +127,18 @@
   },
   "AtomsMainSec03SubMenuRight": {
     "description": "Auto imported from components/atoms/main/sec03/SubMenuRight.vue"
+  },
+  "AtomsMainSec02ContentEn": {
+    "description": "Auto imported from components/atoms/main/sec02/Sec02ContentEn.vue"
+  },
+  "AtomsMainSec02ContentJp": {
+    "description": "Auto imported from components/atoms/main/sec02/Sec02ContentJp.vue"
+  },
+  "AtomsMainSec02SubThumb": {
+    "description": "Auto imported from components/atoms/main/sec02/Sec02SubThumb.vue"
+  },
+  "AtomsMainSec02Thumb": {
+    "description": "Auto imported from components/atoms/main/sec02/Sec02Thumb.vue"
   },
   "AtomsMainSec04Button": {
     "description": "Auto imported from components/atoms/main/sec04/Sec04Button.vue"
