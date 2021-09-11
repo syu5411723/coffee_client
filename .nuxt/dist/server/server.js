@@ -857,7 +857,7 @@ async function setContext(app, context) {
   // If context not defined, create it
   if (!app.context) {
     app.context = {
-      isStatic: false,
+      isStatic: true,
       isDev: false,
       isHMR: false,
       app,
@@ -2068,6 +2068,10 @@ const layouts = {
 
     isFetching() {
       return this.nbFetching > 0;
+    },
+
+    isPreview() {
+      return Boolean(this.$options.previewData);
     }
 
   },
@@ -2215,11 +2219,11 @@ const components = {
   MoleculesHeaderList: () => __webpack_require__.e(/* import() | components/molecules-header-list */ 26).then(__webpack_require__.bind(null, 182)).then(c => wrapFunctional(c.default || c)),
   MoleculesHeaderLogo: () => __webpack_require__.e(/* import() | components/molecules-header-logo */ 27).then(__webpack_require__.bind(null, 180)).then(c => wrapFunctional(c.default || c)),
   MoleculesHeaderTitle: () => __webpack_require__.e(/* import() | components/molecules-header-title */ 28).then(__webpack_require__.bind(null, 181)).then(c => wrapFunctional(c.default || c)),
-  AtomsDesignSecTitle: () => __webpack_require__.e(/* import() | components/atoms-design-sec-title */ 1).then(__webpack_require__.bind(null, 81)).then(c => wrapFunctional(c.default || c)),
   AtomsFooterBottom: () => __webpack_require__.e(/* import() | components/atoms-footer-bottom */ 3).then(__webpack_require__.bind(null, 58)).then(c => wrapFunctional(c.default || c)),
   AtomsFooterCntEn: () => __webpack_require__.e(/* import() | components/atoms-footer-cnt-en */ 4).then(__webpack_require__.bind(null, 59)).then(c => wrapFunctional(c.default || c)),
   AtomsFooterCntJp: () => __webpack_require__.e(/* import() | components/atoms-footer-cnt-jp */ 5).then(__webpack_require__.bind(null, 60)).then(c => wrapFunctional(c.default || c)),
   AtomsFooter: () => __webpack_require__.e(/* import() | components/atoms-footer */ 2).then(__webpack_require__.bind(null, 177)).then(c => wrapFunctional(c.default || c)),
+  AtomsDesignSecTitle: () => __webpack_require__.e(/* import() | components/atoms-design-sec-title */ 1).then(__webpack_require__.bind(null, 81)).then(c => wrapFunctional(c.default || c)),
   AtomsHeaderList: () => __webpack_require__.e(/* import() | components/atoms-header-list */ 6).then(__webpack_require__.bind(null, 143)).then(c => wrapFunctional(c.default || c)),
   AtomsHeaderLogo: () => __webpack_require__.e(/* import() | components/atoms-header-logo */ 7).then(__webpack_require__.bind(null, 151)).then(c => wrapFunctional(c.default || c)),
   AtomsHeaderTitle: () => __webpack_require__.e(/* import() | components/atoms-header-title */ 8).then(__webpack_require__.bind(null, 152)).then(c => wrapFunctional(c.default || c)),
@@ -2241,19 +2245,19 @@ const components = {
   AtomsMainSec01Date: () => __webpack_require__.e(/* import() | components/atoms-main-sec01-date */ 13).then(__webpack_require__.bind(null, 153)).then(c => wrapFunctional(c.default || c)),
   AtomsMainSec01Image: () => __webpack_require__.e(/* import() | components/atoms-main-sec01-image */ 14).then(__webpack_require__.bind(null, 154)).then(c => wrapFunctional(c.default || c)),
   AtomsMainSec01Title: () => __webpack_require__.e(/* import() | components/atoms-main-sec01-title */ 15).then(__webpack_require__.bind(null, 155)).then(c => wrapFunctional(c.default || c)),
-  AtomsMainMenuImg: () => __webpack_require__.e(/* import() | components/atoms-main-menu-img */ 9).then(__webpack_require__.bind(null, 145)).then(c => wrapFunctional(c.default || c)),
-  AtomsMainMenuInfo: () => __webpack_require__.e(/* import() | components/atoms-main-menu-info */ 10).then(__webpack_require__.bind(null, 146)).then(c => wrapFunctional(c.default || c)),
-  AtomsMainMenuName: () => __webpack_require__.e(/* import() | components/atoms-main-menu-name */ 11).then(__webpack_require__.bind(null, 147)).then(c => wrapFunctional(c.default || c)),
-  AtomsMainSec03SubMenuCenter: () => __webpack_require__.e(/* import() | components/atoms-main-sec03-sub-menu-center */ 20).then(__webpack_require__.bind(null, 148)).then(c => wrapFunctional(c.default || c)),
-  AtomsMainSec03SubMenuLeft: () => __webpack_require__.e(/* import() | components/atoms-main-sec03-sub-menu-left */ 21).then(__webpack_require__.bind(null, 150)).then(c => wrapFunctional(c.default || c)),
-  AtomsMainSec03SubMenuRight: () => __webpack_require__.e(/* import() | components/atoms-main-sec03-sub-menu-right */ 22).then(__webpack_require__.bind(null, 149)).then(c => wrapFunctional(c.default || c)),
   AtomsMainSec02ContentEn: () => __webpack_require__.e(/* import() | components/atoms-main-sec02-content-en */ 16).then(__webpack_require__.bind(null, 82)).then(c => wrapFunctional(c.default || c)),
   AtomsMainSec02ContentJp: () => __webpack_require__.e(/* import() | components/atoms-main-sec02-content-jp */ 17).then(__webpack_require__.bind(null, 83)).then(c => wrapFunctional(c.default || c)),
   AtomsMainSec02SubThumb: () => __webpack_require__.e(/* import() | components/atoms-main-sec02-sub-thumb */ 18).then(__webpack_require__.bind(null, 85)).then(c => wrapFunctional(c.default || c)),
   AtomsMainSec02Thumb: () => __webpack_require__.e(/* import() | components/atoms-main-sec02-thumb */ 19).then(__webpack_require__.bind(null, 84)).then(c => wrapFunctional(c.default || c)),
   AtomsMainSec04Button: () => __webpack_require__.e(/* import() | components/atoms-main-sec04-button */ 24).then(__webpack_require__.bind(null, 64)).then(c => wrapFunctional(c.default || c)),
   AtomsMainSec04Content: () => __webpack_require__.e(/* import() | components/atoms-main-sec04-content */ 25).then(__webpack_require__.bind(null, 65)).then(c => wrapFunctional(c.default || c)),
-  AtomsMainSec04: () => __webpack_require__.e(/* import() | components/atoms-main-sec04 */ 23).then(__webpack_require__.bind(null, 209)).then(c => wrapFunctional(c.default || c))
+  AtomsMainSec04: () => __webpack_require__.e(/* import() | components/atoms-main-sec04 */ 23).then(__webpack_require__.bind(null, 209)).then(c => wrapFunctional(c.default || c)),
+  AtomsMainMenuImg: () => __webpack_require__.e(/* import() | components/atoms-main-menu-img */ 9).then(__webpack_require__.bind(null, 145)).then(c => wrapFunctional(c.default || c)),
+  AtomsMainMenuInfo: () => __webpack_require__.e(/* import() | components/atoms-main-menu-info */ 10).then(__webpack_require__.bind(null, 146)).then(c => wrapFunctional(c.default || c)),
+  AtomsMainMenuName: () => __webpack_require__.e(/* import() | components/atoms-main-menu-name */ 11).then(__webpack_require__.bind(null, 147)).then(c => wrapFunctional(c.default || c)),
+  AtomsMainSec03SubMenuCenter: () => __webpack_require__.e(/* import() | components/atoms-main-sec03-sub-menu-center */ 20).then(__webpack_require__.bind(null, 148)).then(c => wrapFunctional(c.default || c)),
+  AtomsMainSec03SubMenuLeft: () => __webpack_require__.e(/* import() | components/atoms-main-sec03-sub-menu-left */ 21).then(__webpack_require__.bind(null, 150)).then(c => wrapFunctional(c.default || c)),
+  AtomsMainSec03SubMenuRight: () => __webpack_require__.e(/* import() | components/atoms-main-sec03-sub-menu-right */ 22).then(__webpack_require__.bind(null, 149)).then(c => wrapFunctional(c.default || c))
 };
 
 for (const name in components) {
@@ -2607,14 +2611,56 @@ async function createApp(ssrContext, config = {}) {
       }, {
         "name": "format-detection",
         "content": "telephone=no"
+      }, {
+        "hid": "charset",
+        "charset": "utf-8"
+      }, {
+        "hid": "mobile-web-app-capable",
+        "name": "mobile-web-app-capable",
+        "content": "yes"
+      }, {
+        "hid": "apple-mobile-web-app-title",
+        "name": "apple-mobile-web-app-title",
+        "content": "coffee_roaster"
+      }, {
+        "hid": "og:type",
+        "name": "og:type",
+        "property": "og:type",
+        "content": "website"
+      }, {
+        "hid": "og:title",
+        "name": "og:title",
+        "property": "og:title",
+        "content": "coffee_roaster"
+      }, {
+        "hid": "og:site_name",
+        "name": "og:site_name",
+        "property": "og:site_name",
+        "content": "coffee_roaster"
+      }, {
+        "hid": "og:description",
+        "name": "og:description",
+        "property": "og:description",
+        "content": "## Build Setup"
       }],
       "link": [{
         "rel": "icon",
         "type": "image\u002Fx-icon",
         "href": "\u002Ffavicon.ico"
+      }, {
+        "hid": "shortcut-icon",
+        "rel": "shortcut icon",
+        "href": "\u002Ffavicon.ico"
+      }, {
+        "rel": "manifest",
+        "href": "\u002F_nuxt\u002Fmanifest.01a7ad9d.json",
+        "hid": "manifest"
       }],
       "style": [],
-      "script": []
+      "script": [],
+      "htmlAttrs": {
+        "lang": "en"
+      }
     },
     router,
     nuxt: {

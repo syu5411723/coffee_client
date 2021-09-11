@@ -38,9 +38,6 @@
   "MoleculesHeaderTitle": {
     "description": "Auto imported from components/molecules/header/Title.vue"
   },
-  "AtomsDesignSecTitle": {
-    "description": "Auto imported from components/atoms/design/SecTitle.vue"
-  },
   "AtomsFooterBottom": {
     "description": "Auto imported from components/atoms/footer/FooterBottom.vue"
   },
@@ -52,6 +49,9 @@
   },
   "AtomsFooter": {
     "description": "Auto imported from components/atoms/footer/index.js"
+  },
+  "AtomsDesignSecTitle": {
+    "description": "Auto imported from components/atoms/design/SecTitle.vue"
   },
   "AtomsHeaderList": {
     "description": "Auto imported from components/atoms/header/HeaderList.vue"
@@ -116,24 +116,6 @@
   "AtomsMainSec01Title": {
     "description": "Auto imported from components/atoms/main/sec01/Sec01Title.vue"
   },
-  "AtomsMainMenuImg": {
-    "description": "Auto imported from components/atoms/main/sec03/MainMenuImg.vue"
-  },
-  "AtomsMainMenuInfo": {
-    "description": "Auto imported from components/atoms/main/sec03/MainMenuInfo.vue"
-  },
-  "AtomsMainMenuName": {
-    "description": "Auto imported from components/atoms/main/sec03/MainMenuName.vue"
-  },
-  "AtomsMainSec03SubMenuCenter": {
-    "description": "Auto imported from components/atoms/main/sec03/SubMenuCenter.vue"
-  },
-  "AtomsMainSec03SubMenuLeft": {
-    "description": "Auto imported from components/atoms/main/sec03/SubMenuLeft.vue"
-  },
-  "AtomsMainSec03SubMenuRight": {
-    "description": "Auto imported from components/atoms/main/sec03/SubMenuRight.vue"
-  },
   "AtomsMainSec02ContentEn": {
     "description": "Auto imported from components/atoms/main/sec02/Sec02ContentEn.vue"
   },
@@ -154,5 +136,23 @@
   },
   "AtomsMainSec04": {
     "description": "Auto imported from components/atoms/main/sec04/index.js"
+  },
+  "AtomsMainMenuImg": {
+    "description": "Auto imported from components/atoms/main/sec03/MainMenuImg.vue"
+  },
+  "AtomsMainMenuInfo": {
+    "description": "Auto imported from components/atoms/main/sec03/MainMenuInfo.vue"
+  },
+  "AtomsMainMenuName": {
+    "description": "Auto imported from components/atoms/main/sec03/MainMenuName.vue"
+  },
+  "AtomsMainSec03SubMenuCenter": {
+    "description": "Auto imported from components/atoms/main/sec03/SubMenuCenter.vue"
+  },
+  "AtomsMainSec03SubMenuLeft": {
+    "description": "Auto imported from components/atoms/main/sec03/SubMenuLeft.vue"
+  },
+  "AtomsMainSec03SubMenuRight": {
+    "description": "Auto imported from components/atoms/main/sec03/SubMenuRight.vue"
   }
 }
