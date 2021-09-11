@@ -1,6 +1,6 @@
 ﻿<template>
   <div id="title-trigger">
-    <div id="sec02-title-wrapper">
+    <div id="sec02-title-wrapper" target="_blank">
       <Sec02SubThumb />
       <Sec02Thumb />
     </div>
@@ -16,30 +16,30 @@ export default {
     Sec02SubThumb,
   },
   mounted() {
-    const scene2 = this.$scrollmagic
+    const scene1 = this.$scrollmagic
       .scene({
         triggerElement: "#title-trigger",
         triggerHook: 0.7,
+        // reverse:false,
       })
-      .setTween("#title-trigger", {
+      .setTween("#sec02-title-wrapper", {
         css: {
           opacity: "0",
           left: "-10%",
-            transition: "ease-in",
+          transition: "ease-in",
         },
       });
-    this.$scrollmagic.addScene(scene2);
+    this.$scrollmagic.addScene(scene1);
   },
 };
 </script>
 
 <style scoped>
-#title-trigger {
+#sec02-title-wrapper {
   opacity: 1;
   position: absolute;
   top: 45%;
   left: 10%;
-}
-#sec02-title-wrapper {
+  transition: ease-in;
 }
 </style>

@@ -1,6 +1,6 @@
 ﻿<template>
-  <div id="work-trigger">
-    <div id="sec02-contentWrapper">
+  <div id="sec02-trigger">
+    <div id="sec02-contentWrapper" target="_blank">
       <Sec02ContentEn />
       <Sec02ContentJp />
     </div>
@@ -18,15 +18,15 @@ export default {
   mounted() {
     const scene1 = this.$scrollmagic
       .scene({
-        triggerElement: "#work-trigger",
+        triggerElement: "#sec02-trigger",
         triggerHook: 0.4,
-        // reverse: false,
+        reverse: true,
       })
       .setTween("#sec02-contentWrapper", {
         css: {
           opacity: "1",
           transform: "translateX(50px)",
-            transition: "ease-in",
+          transition: "ease-in",
         },
       });
     this.$scrollmagic.addScene(scene1);

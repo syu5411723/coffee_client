@@ -1,70 +1,76 @@
 ﻿<template>
-  <div class="footer-container">
-    <div class="footer-inner">
-    <div id="footer-title">Location</div>
-      <div class="footer-content" id="footer-trigger">
-        <FooterCntJp />
-        <FooterCntEn />
+  <div>
+    <div></div>
+    <section>
+      <h2 id="footer-trigger"></h2>
+      <div>
+        <div>
+          <p>技術ブログ</p>
+          <a id="footer-content">
+            <FooterCntJp />
+            <FooterCntEn />
+          </a>
+        </div>
       </div>
-      <FooterBottom />
-    </div>
+    </section>
   </div>
 </template>
-
 <script>
-import {FooterCntJp, FooterCntEn, FooterBottom} from "~/components/atoms/footer/"
+import {FooterBottom, FooterCntJp, FooterCntEn} from "~/components/atoms/footer"
+
 export default {
   components: {
+    FooterBottom,
     FooterCntJp,
     FooterCntEn,
-    FooterBottom,
   },
   mounted() {
-    const scene = this.$scrollmagic
-    .scene({
-      triggerElement: "#footer-title",
-      triggerHook: 0.7,
-    })
-    .setTween("#footer-trigger", {
-      css:{
-        opacity: "1",
-        transform: "translateX(0)",
-        transition: "ease all 0.5s",
-      }
-    });
-    this.$scrollmagic.addScene(scene);
-  }
+    const scene1 = this.$scrollmagic
+      .scene({
+        triggerElement: "#footer-trigger",
+        triggerHook: 0.5,
+        reverse: true,
+      })
+      .setTween("#footer-content", {
+        css: {
+          opacity: "1",
+          transform: "translateX(0px)",
+          trnasition: "ease-in"
+        },
+      });
+    // ---- ↓ triggerのヘルプを表示 ----
+    // .addIndicators({ name: 'OK' })
+
+    this.$scrollmagic.addScene(scene1);
+  },
 };
 </script>
 
-<style>
+<style scoped>
 .footer-container {
-    width: 100%;
-    height: 100%;
-    margin-bottom: 20px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
 }
 .footer-inner {
-    width: 95%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-#footer-trigger {
+#footer-content {
   transform: translateX(-50px);
   opacity: 0;
+  font-size: 10px;
+  margin-bottom: 70px;
+  display: flex;
+  width: 100%;
 }
-#footer-title {
+#footer-trigger {
   margin-bottom: 30px;
 }
 .footer-meta-wrapper {
   width: 40%;
-}
-.footer-content {
-    font-size: 10px;
-    margin-bottom: 70px;
-    display: flex;
-    width: 100%;
 }
 </style>

@@ -1,5 +1,6 @@
 ﻿<template>
   <section class="sec02">
+    <div class="dis"></div>
     <div class="sec02-container">
       <div class="sec02-inner">
         <sec-02-content />
@@ -12,9 +13,10 @@
 
 <script>
 import {Sec02Content, Sec02Image, Sec02Title} from "~/components/molecules/main/sec02";
+import Sample02 from '~/components/molecules/main/sec02/Sample02';
 
 export default {
-  components: { Sec02Content, Sec02Image, Sec02Title},
+  components: { Sec02Content, Sec02Image, Sec02Title, Sample02},
 };
 </script>
 
