@@ -1,14 +1,14 @@
-exports.ids = [38,24,25,39,40,41,42];
+exports.ids = [37,24,25,38,39,40,41];
 exports.modules = {
 
-/***/ 130:
+/***/ 129:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/bean.b844a30.jpg";
 
 /***/ }),
 
-/***/ 131:
+/***/ 130:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20,7 +20,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 132:
+/***/ 131:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -34,14 +34,14 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 133:
+/***/ 132:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/roasting.3b694da.jpg";
 
 /***/ }),
 
-/***/ 134:
+/***/ 133:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53,7 +53,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 135:
+/***/ 134:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -67,7 +67,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 136:
+/***/ 135:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -79,7 +79,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 137:
+/***/ 136:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -93,7 +93,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 138:
+/***/ 137:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -105,7 +105,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 139:
+/***/ 138:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -119,7 +119,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 179:
+/***/ 173:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -185,7 +185,7 @@ module.exports.__inject__ = function (context) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(132);
+var content = __webpack_require__(131);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -203,7 +203,7 @@ module.exports.__inject__ = function (context) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(135);
+var content = __webpack_require__(134);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -221,7 +221,7 @@ module.exports.__inject__ = function (context) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(137);
+var content = __webpack_require__(136);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -239,7 +239,7 @@ module.exports.__inject__ = function (context) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(139);
+var content = __webpack_require__(138);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -350,7 +350,7 @@ var componentNormalizer = __webpack_require__(2);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(136)
+  var style0 = __webpack_require__(135)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -380,7 +380,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 __webpack_require__.r(__webpack_exports__);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/molecules/main/sec04/Sec04Img.vue?vue&type=template&id=234a46c2&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"sec04-img-wrapper"},[_vm._ssrNode("<img"+(_vm._ssrAttr("src",__webpack_require__(130)))+" alt class=\"sec04-img\"> <p class=\"sec04-img-text\">Wholebean</p>")])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"sec04-img-wrapper"},[_vm._ssrNode("<img"+(_vm._ssrAttr("src",__webpack_require__(129)))+" alt class=\"sec04-img\"> <p class=\"sec04-img-text\">Wholebean</p>")])}
 var staticRenderFns = []
 
 
@@ -394,7 +394,7 @@ var componentNormalizer = __webpack_require__(2);
 var script = {}
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(131)
+  var style0 = __webpack_require__(130)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -424,7 +424,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 __webpack_require__.r(__webpack_exports__);
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/molecules/main/sec04/Sec04Img02.vue?vue&type=template&id=4d259c44&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"sec04-img02-wrapper"},[_vm._ssrNode("<img"+(_vm._ssrAttr("src",__webpack_require__(133)))+" alt class=\"sec04-img02\"> <p class=\"sec04-img-text\">Roasting</p>")])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"sec04-img02-wrapper"},[_vm._ssrNode("<img"+(_vm._ssrAttr("src",__webpack_require__(132)))+" alt class=\"sec04-img02\"> <p class=\"sec04-img-text\">Roasting</p>")])}
 var staticRenderFns = []
 
 
@@ -438,7 +438,7 @@ var componentNormalizer = __webpack_require__(2);
 var script = {}
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(134)
+  var style0 = __webpack_require__(133)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -570,7 +570,7 @@ var componentNormalizer = __webpack_require__(2);
 var script = {}
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(138)
+  var style0 = __webpack_require__(137)
 if (style0.__inject__) style0.__inject__(context)
 
 }

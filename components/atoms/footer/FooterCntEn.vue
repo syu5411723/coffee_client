@@ -10,12 +10,6 @@
     <div class="footer-link-wrapper">
       <p class="footer-link">About us</p>
       <p class="footer-link">Menu</p>
-      <p class="footer-link">Shop</p>
-      <p class="footer-link">Top</p>
-    </div>
-    <div class="footer-link-wrapper">
-      <p class="footer-link">Online Shop</p>
-      <p class="footer-link">Instagram</p>
       <p class="footer-link">Map</p>
     </div>
   </div>
@@ -27,9 +21,11 @@
   justify-content: center;
   flex-direction: column;
   font-size: 10px;
-
 }
 .footer-cntText-en {
-    margin-bottom: 4px;
+    margin-bottom: 7px;
+}
+.footer-link {
+  margin-bottom: 2px;
 }
 </style>

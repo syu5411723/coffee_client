@@ -1,22 +1,23 @@
 ﻿<template>
   <div>
-    <div></div>
-    <section>
-      <h2 id="footer-trigger"></h2>
-      <div>
-        <div>
-          <p>技術ブログ</p>
-          <a id="footer-content">
-            <FooterCntJp />
-            <FooterCntEn />
-          </a>
+    <div class="footer-container">
+      <div class="footer-title">Location</div>
+      <div class="footer-inner" id="footer-trigger">
+        <div id="footer-content">
+          <FooterCntJp />
+          <FooterCntEn />
         </div>
       </div>
-    </section>
+      <FooterBottom />
+    </div>
   </div>
 </template>
 <script>
-import {FooterBottom, FooterCntJp, FooterCntEn} from "~/components/atoms/footer"
+import {
+  FooterBottom,
+  FooterCntJp,
+  FooterCntEn,
+} from "~/components/atoms/footer";
 
 export default {
   components: {
@@ -28,19 +29,15 @@ export default {
     const scene1 = this.$scrollmagic
       .scene({
         triggerElement: "#footer-trigger",
-        triggerHook: 0.5,
+        triggerHook: 1,
         reverse: true,
       })
       .setTween("#footer-content", {
         css: {
           opacity: "1",
           transform: "translateX(0px)",
-          trnasition: "ease-in"
         },
       });
-    // ---- ↓ triggerのヘルプを表示 ----
-    // .addIndicators({ name: 'OK' })
-
     this.$scrollmagic.addScene(scene1);
   },
 };
@@ -58,6 +55,9 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.footer-title {
+  margin-bottom: 30px;
 }
 #footer-content {
   transform: translateX(-50px);

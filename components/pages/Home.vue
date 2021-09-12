@@ -1,13 +1,11 @@
 ﻿<template>
   <div>
-    <!-- <Sample /> -->
-    <!-- <sample-02 /> -->
-    <!-- <Header />
-    <Sec1 />  -->
-    <!-- <Sec2 /> -->
-    <!-- <Sec3 :menus="menus" :otherMenus="otherMenus" />
+    <Header />
+    <Sec1 /> 
+    <Sec2 />
+    <Sec3 :menus="menus" :otherMenus="otherMenus" />
     <Sec4 />
-    <img-wrapper /> -->
+    <img-wrapper />
     <Footer />
   </div>
 </template>
@@ -21,10 +19,7 @@ import {
   Sec3,
   Sec4,
   ImgWrapper,
-  Sample,
-
 } from "~/components/templates";
-import Sample02 from '~/components/molecules/main/sec02/Sample02.vue';
 
 
 export default {
@@ -36,8 +31,6 @@ export default {
     Sec3,
     Sec4,
     ImgWrapper,
-    Sample,
-    Sample02,
   },
   props: ["menus", "otherMenus"],
   name: "App",

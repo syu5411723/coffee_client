@@ -1,7 +1,7 @@
 exports.ids = [2,3,4,5];
 exports.modules = {
 
-/***/ 177:
+/***/ 171:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -27,7 +27,7 @@ __webpack_require__.r(__webpack_exports__);
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(91);
+var content = __webpack_require__(90);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -45,7 +45,7 @@ module.exports.__inject__ = function (context) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(93);
+var content = __webpack_require__(92);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -63,7 +63,7 @@ module.exports.__inject__ = function (context) {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(95);
+var content = __webpack_require__(94);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -97,7 +97,7 @@ var componentNormalizer = __webpack_require__(2);
 var script = {}
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(90)
+  var style0 = __webpack_require__(89)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -126,12 +126,12 @@ var component = Object(componentNormalizer["a" /* default */])(
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/atoms/footer/FooterCntEn.vue?vue&type=template&id=ea2ef414&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"footer-cntWrapper-en"},[_vm._ssrNode("<p class=\"footer-cntText-en\">\n    We value sustainability, community and quality experiences.\n  </p> <p class=\"footer-cntText-en\">\n    We invite you to be a part of it all with us and\n  </p> <p class=\"footer-cntText-en\">thank you for your on going support.</p> <div class=\"footer-link-wrapper\"><p class=\"footer-link\">About us</p> <p class=\"footer-link\">Menu</p> <p class=\"footer-link\">Shop</p> <p class=\"footer-link\">Top</p></div> <div class=\"footer-link-wrapper\"><p class=\"footer-link\">Online Shop</p> <p class=\"footer-link\">Instagram</p> <p class=\"footer-link\">Map</p></div>")])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/atoms/footer/FooterCntEn.vue?vue&type=template&id=5db02b7c&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"footer-cntWrapper-en"},[_vm._ssrNode("<p class=\"footer-cntText-en\">\n    We value sustainability, community and quality experiences.\n  </p> <p class=\"footer-cntText-en\">\n    We invite you to be a part of it all with us and\n  </p> <p class=\"footer-cntText-en\">thank you for your on going support.</p> <div class=\"footer-link-wrapper\"><p class=\"footer-link\">About us</p> <p class=\"footer-link\">Menu</p> <p class=\"footer-link\">Map</p></div>")])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/atoms/footer/FooterCntEn.vue?vue&type=template&id=ea2ef414&
+// CONCATENATED MODULE: ./components/atoms/footer/FooterCntEn.vue?vue&type=template&id=5db02b7c&
 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 var componentNormalizer = __webpack_require__(2);
@@ -141,7 +141,7 @@ var componentNormalizer = __webpack_require__(2);
 var script = {}
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(92)
+  var style0 = __webpack_require__(91)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -170,12 +170,12 @@ var component = Object(componentNormalizer["a" /* default */])(
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/atoms/footer/FooterCntJp.vue?vue&type=template&id=1a8d91cc&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"footer-cntWrapper-jp"},[_vm._ssrNode("<p class=\"footer-cntText-jp\">558-0053</p> <p class=\"footer-cntText-jp\">大阪市住吉区帝塚山中1-1-16</p> <p class=\"footer-cntText-jp\">阪堺電車 姫松駅すぐ</p> <p class=\"footer-cntText-jp\">南海高野線 帝塚山駅 徒歩8分</p> <p class=\"footer-cntText-jp\">Osaka Metro 西田辺駅 徒歩15分</p> <p class=\"footer-cntText-jp\">近隣コインパーキング有り</p>")])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/atoms/footer/FooterCntJp.vue?vue&type=template&id=95b501d0&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"footer-cntWrapper-jp"},[_vm._ssrNode("<p class=\"footer-cntText-jp\">034-0088</p> <p class=\"footer-cntText-jp\">江戸川区西葛西</p> <p class=\"footer-cntText-jp\">Tokyo Metoro 西葛西</p>")])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/atoms/footer/FooterCntJp.vue?vue&type=template&id=1a8d91cc&
+// CONCATENATED MODULE: ./components/atoms/footer/FooterCntJp.vue?vue&type=template&id=95b501d0&
 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 var componentNormalizer = __webpack_require__(2);
@@ -185,7 +185,7 @@ var componentNormalizer = __webpack_require__(2);
 var script = {}
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(94)
+  var style0 = __webpack_require__(93)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -207,7 +207,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 90:
+/***/ 89:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -219,7 +219,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 91:
+/***/ 90:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
@@ -233,7 +233,7 @@ module.exports = ___CSS_LOADER_EXPORT___;
 
 /***/ }),
 
-/***/ 92:
+/***/ 91:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -245,21 +245,21 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 93:
+/***/ 92:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(7);
 var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".fotoer-cntWrapper-en{display:flex;justify-content:center;flex-direction:column;font-size:10px}.footer-cntText-en{margin-bottom:4px}", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".fotoer-cntWrapper-en{display:flex;justify-content:center;flex-direction:column;font-size:10px}.footer-cntText-en{margin-bottom:7px}.footer-link{margin-bottom:2px}", ""]);
 // Exports
 module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
 
-/***/ 94:
+/***/ 93:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -271,7 +271,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 95:
+/***/ 94:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports

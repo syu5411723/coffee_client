@@ -1,9 +1,9 @@
 ﻿<template>
-  <header>
+  <header class="header-container">
     <div class="header-inner">
       <Title />
       <List />
-      <Logo />
+      <!-- <Logo /> -->
     </div>
   </header>
 </template>
@@ -22,7 +22,7 @@ export default {
 </script>
 
 <style>
-header {
+.header-container {
   width: 100%;
   height: 50px;
   position: fixed;

@@ -26,7 +26,6 @@ export default {
         css: {
           opacity: "1",
           transform: "translateX(50px)",
-          transition: "ease-in",
         },
       });
     this.$scrollmagic.addScene(scene1);

@@ -26,7 +26,6 @@ export default {
         css: {
           opacity: "0",
           left: "-10%",
-          transition: "ease-in",
         },
       });
     this.$scrollmagic.addScene(scene1);
@@ -40,6 +39,6 @@ export default {
   position: absolute;
   top: 45%;
   left: 10%;
-  transition: ease-in;
+  transition: all ease-in;
 }
 </style>

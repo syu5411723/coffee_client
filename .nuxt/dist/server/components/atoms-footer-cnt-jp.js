@@ -7,7 +7,7 @@ exports.modules = {
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(95);
+var content = __webpack_require__(94);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
@@ -26,12 +26,12 @@ module.exports.__inject__ = function (context) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/atoms/footer/FooterCntJp.vue?vue&type=template&id=1a8d91cc&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"footer-cntWrapper-jp"},[_vm._ssrNode("<p class=\"footer-cntText-jp\">558-0053</p> <p class=\"footer-cntText-jp\">大阪市住吉区帝塚山中1-1-16</p> <p class=\"footer-cntText-jp\">阪堺電車 姫松駅すぐ</p> <p class=\"footer-cntText-jp\">南海高野線 帝塚山駅 徒歩8分</p> <p class=\"footer-cntText-jp\">Osaka Metro 西田辺駅 徒歩15分</p> <p class=\"footer-cntText-jp\">近隣コインパーキング有り</p>")])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/atoms/footer/FooterCntJp.vue?vue&type=template&id=95b501d0&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"footer-cntWrapper-jp"},[_vm._ssrNode("<p class=\"footer-cntText-jp\">034-0088</p> <p class=\"footer-cntText-jp\">江戸川区西葛西</p> <p class=\"footer-cntText-jp\">Tokyo Metoro 西葛西</p>")])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/atoms/footer/FooterCntJp.vue?vue&type=template&id=1a8d91cc&
+// CONCATENATED MODULE: ./components/atoms/footer/FooterCntJp.vue?vue&type=template&id=95b501d0&
 
 // EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 var componentNormalizer = __webpack_require__(2);
@@ -41,7 +41,7 @@ var componentNormalizer = __webpack_require__(2);
 var script = {}
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(94)
+  var style0 = __webpack_require__(93)
 if (style0.__inject__) style0.__inject__(context)
 
 }
@@ -63,7 +63,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 /***/ }),
 
-/***/ 94:
+/***/ 93:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -75,7 +75,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 95:
+/***/ 94:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports

@@ -36,7 +36,6 @@ export default {
         css: {
           opacity: "1",
           transform: "translateY(0)",
-          transition: "ease-in",
         },
       });
     const scene3 = this.$scrollmagic
@@ -48,7 +47,6 @@ export default {
         css: {
           opacity: "1",
           transform: "translateX(0)",
-          transition: "ease-in",
         },
       });
       const scene4 = this.$scrollmagic
@@ -60,7 +58,6 @@ export default {
         css: {
           opacity: "1",
           transform: "translateY(0)",
-          transtion: "ease-in",
         }
       })
 

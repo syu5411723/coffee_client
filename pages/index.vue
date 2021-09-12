@@ -1,12 +1,11 @@
 <template>
-  <body>
+  <div>
     <Home :menus="menus" :otherMenus="otherMenus" />
-  </body>
+  </div>
 </template>
 
 <script>
-import Home from "../components/pages/Home.vue";
-
+import Home from "~/components/pages/Home.vue";
 
 const sampleData = [
   {
@@ -57,18 +56,18 @@ export default {
       const otherMenus = await $axios.$get(`/other-menu/`);
       return { menus, otherMenus };
     } catch (e) {
-      const data = sampleData
+      const data = sampleData;
       return {
         menus: data,
         otherMenus: data,
-        };
+      };
     }
   },
 };
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 * {
   margin: 0;
@@ -79,7 +78,7 @@ a {
   text-decoration: none;
 }
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   letter-spacing: 0.04rem;
   background-color: #edece7;
 }
