@@ -1,14 +1,14 @@
 ﻿<template>
   <div>
     <div class="footer-container">
-      <div class="footer-title">Location</div>
       <div class="footer-inner" id="footer-trigger">
+        <div class="footer-title">Location</div>
         <div id="footer-content">
           <FooterCntJp />
           <FooterCntEn />
         </div>
+        <FooterBottom />
       </div>
-      <FooterBottom />
     </div>
   </div>
 </template>
